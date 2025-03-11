@@ -1,0 +1,170 @@
+/* Estilo geral para o body */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão do corpo da página */
+    margin: 0; /* Remove as margens padrão do navegador */
+    padding: 0; /* Remove o preenchimento (padding) padrão do navegador */
+    background-color: #ffffff; /* Define a cor de fundo da página */
+    color: #000000; /* Define a cor do texto como preto */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #fcfcfc; /* Cor de fundo do cabeçalho */
+    padding: 10px; /* Espaçamento interno do cabeçalho */
+}
+
+/* Estilo para a lista de navegação */
+nav ul {
+    list-style-type: none; /* Remove os marcadores das listas */
+    margin: 0; /* Remove a margem da lista */
+    padding: 0; /* Remove o preenchimento da lista */
+    text-align: right; /* Alinha os itens da lista à direita */
+}
+
+/* Estilo para as imagens dentro de navegação */
+img {
+    float: left; /* Faz a imagem flutuar para a esquerda */
+    width: 3%; /* Define a largura da imagem como 3% da largura do contêiner */
+    height: auto; /* Mantém a proporção da altura da imagem */
+}
+
+/* Estilo para os itens da lista de navegação */
+nav ul li {
+    display: inline-table; /* Exibe os itens da lista como inline-table */
+    margin-right: 50px; /* Adiciona 50px de margem à direita de cada item da lista */
+    padding: 20px; /* Adiciona 20px de preenchimento em torno de cada item */
+}
+
+/* Estilo para os links da navegação */
+nav ul li a {
+    color: rgb(0, 0, 0); /* Define a cor do texto do link como preto */
+    text-decoration: none; /* Remove o sublinhado do link */
+    font-weight: bold; /* Deixa o texto do link em negrito */
+    text-align: left; /* Alinha o texto do link à esquerda */
+}
+
+/* Estilo para a seção principal */
+.principal {
+    background-color: #3c5b7bcc; /* Cor de fundo da seção principal */
+    color: white; /* Define a cor do texto como branca */
+    text-align: center; /* Alinha o conteúdo da seção ao centro */
+    padding: 80px 20px; /* Adiciona 80px de padding superior e inferior e 20px nas laterais */
+}
+
+/* Estilo para o título principal da seção */
+.principal h1 {
+    font-size: 48px; /* Define o tamanho da fonte como 48px */
+    color: #fcfcfc; /* Define a cor do título como um tom muito claro */
+    text-align: center; /* Centraliza o título */
+}
+
+/* Estilo para o parágrafo na seção principal */
+.principal p {
+    font-size: 18px; /* Define o tamanho da fonte como 18px */
+    text-align: center; /* Centraliza o texto do parágrafo */
+    max-width: 800px; /* Define a largura máxima do parágrafo */
+    margin: 0 auto 100px; /* Centraliza o parágrafo e adiciona 100px de margem inferior */
+    color: #fcfcfc; /* Define a cor do texto como um tom claro */
+}
+
+/* Estilo para o link na seção principal */
+.principal a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    display: inline-block; /* Exibe o link como um bloco inline */
+    background-color: #ff6a00; /* Cor de fundo do botão */
+    color: rgb(255, 253, 253); /* Cor do texto do botão */
+    padding: 35px 30px; /* Adiciona 35px de padding superior e inferior, 30px nas laterais */
+    border-radius: 20px; /* Aplica bordas arredondadas de 20px */
+    font-weight: bold; /* Deixa o texto do link em negrito */
+    text-transform: uppercase; /* Transforma o texto do link para maiúsculas */
+    letter-spacing: 1px; /* Aumenta o espaçamento entre as letras */
+}
+
+/* Estilo para a segunda seção */
+.segunda {
+    padding: 100px auto; /* Adiciona 100px de padding superior e inferior */
+}
+
+/* Estilo para o título da segunda seção */
+.segunda h2 {
+    padding: 10px; /* Adiciona 10px de padding no título */
+    font-size: 48px; /* Define o tamanho da fonte do título como 48px */
+    color: #3c5b7bcc; /* Define a cor do título como um tom de azul */
+    text-align: center; /* Centraliza o título */
+}
+
+/* Estilo para o parágrafo da segunda seção */
+.segunda p {
+    font-size: 20px; /* Define o tamanho da fonte como 18px */
+    text-align: center; /* Centraliza o texto do parágrafo */
+    max-width: 1100px; /* Define a largura máxima do parágrafo */
+    margin: 0 auto 100px; /* Centraliza o parágrafo e adiciona 100px de margem inferior */
+    color: #000000; /* Define a cor do texto como preta */
+    padding: 40px; /* Adiciona 40px de padding */
+}
+/* Estilos para as imagens */
+.imagens {
+    display: flex; /* Usando Flexbox para alinhar as imagens lado a lado */
+    justify-content:center; /* Centraliza as imagens horizontalmente */
+    gap: 10px; /* Espaçamento entre as imagens */
+}
+
+.imagens img {
+    width: 30%; /* Define que cada imagem ocupará 30% da largura do contêiner */
+    height: auto; /* Ajusta a altura automaticamente para manter a proporção */
+    border-radius: 8px; /* Arredonda as bordas das imagens */
+}
+
+.DIVISAO {
+    padding: 20px;
+}
+
+
+/* Estilo para a terceira seção */
+.terceira {
+    background-color: #3c5b7bcc; /* Cor de fundo da terceira seção */
+    text-align: center; /* Centraliza o conteúdo */
+    padding: 80px 20px; /* Adiciona 80px de padding superior e inferior, 20px nas laterais */
+    
+}
+
+/* Estilo para o título da terceira seção */
+.terceira h3 {
+    font-size: 48px; /* Define o tamanho da fonte como 48px */
+    color: #fcfcfc; /* Define a cor do título como um tom muito claro */
+    text-align: center; /* Centraliza o título */
+}
+
+/* Estilo para o parágrafo da terceira seção */
+.terceira p {
+    font-size: 20px; /* Define o tamanho da fonte como 19px */
+    text-align: center; /* Centraliza o texto do parágrafo */
+    max-width: 800px; /* Define a largura máxima do parágrafo */
+    margin: 0 auto; /* Centraliza o parágrafo horizontalmente */
+    color: #fcfcfc; /* Define a cor do texto como um tom claro */
+    padding: 50px;
+}
+
+/* Estilo para o link da terceira seção */
+.terceira a {
+    text-decoration: none; /* Remove o sublinhado do link */
+    display: inline-block; /* Exibe o link como um bloco inline */
+    background-color: #ff6a00; /* Cor de fundo do botão */
+    color: rgb(255, 253, 253); /* Cor do texto do botão */
+    padding: 35px 30px; /* Adiciona 35px de padding superior e inferior, 30px nas laterais */
+    border-radius: 20px; /* Aplica bordas arredondadas de 20px */
+    font-weight: bold; /* Deixa o texto do link em negrito */
+    text-transform: uppercase; /* Transforma o texto do link para maiúsculas */
+    letter-spacing: 1px; /* Aumenta o espaçamento entre as letras */
+}
+
+/* Rodapé */
+footer {
+    background-color: #333; /* Cor de fundo do footer */
+    color: white; /* Cor do texto */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Alinha o conteúdo do footer ao centro */
+    position: relative; /* Para que o footer não saia da tela */
+    bottom: 0; /* Coloca o footer na parte inferior */
+    width: 97.8%; /* Define a largura do footer como 100% da tela */
+}

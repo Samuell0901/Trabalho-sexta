@@ -1,0 +1,166 @@
+/* Estilo geral para o body */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão do corpo da página */
+    margin: 0; /* Remove as margens padrão do navegador */
+    padding: 0; /* Remove o preenchimento (padding) padrão do navegador */
+    background-color: #3c5b7bcc; /* Define a cor de fundo da página */
+    color: #000000; /* Define a cor do texto como preto */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #fcfcfc; /* Cor de fundo do cabeçalho */
+    padding: 10px; /* Espaçamento interno de 10px dentro do cabeçalho */
+}
+
+/* Estilo para a lista de navegação */
+nav ul {
+    list-style-type: none; /* Remove os marcadores das listas */
+    margin: 0; /* Remove a margem da lista */
+    padding: 0; /* Remove o preenchimento da lista */
+    text-align: right; /* Alinha os itens da lista à direita */
+}
+
+/* Estilo para a imagem de navegação */
+nav img {
+    float: left; /* Faz a imagem flutuar para a esquerda */
+    width: 3%; /* Define a largura da imagem como 3% da largura do contêiner */
+    height: auto; /* Mantém a proporção da altura da imagem */
+    margin-top: 10px; /* Adiciona 10px de espaço acima da imagem */
+}
+
+/* Estilo para os itens da lista de navegação */
+nav ul li {
+    display: inline-table; /* Exibe os itens da lista como inline-table */
+    margin-right: 50px; /* Adiciona 50px de margem à direita de cada item da lista */
+    padding: 20px; /* Adiciona 20px de preenchimento em torno de cada item */
+}
+
+/* Estilo para os links da navegação */
+nav ul li a {
+    color: rgb(0, 0, 0); /* Define a cor do texto do link como preto */
+    text-decoration: none; /* Remove o sublinhado do link */
+    font-weight: bold; /* Deixa o texto do link em negrito */
+    text-align: left; /* Alinha o texto do link à esquerda */
+}
+
+/* Seção principal */
+.principal {
+    padding: 20px; /* Adiciona 20px de preenchimento dentro da seção */
+    text-align: center; /* Alinha o texto da seção ao centro */
+    margin-bottom: 60px; /* Adiciona 60px de margem no fundo, para dar espaço ao footer fixo */
+}
+
+/* Estilo para o título principal */
+.principal h1 {
+    font-size: 48px; /* Define o tamanho da fonte como 48px */
+    color: #fcfcfc; /* Define a cor do texto como um tom muito claro */
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Adiciona 20px de espaço abaixo do título */
+}
+
+/* Estilo para o parágrafo */
+.principal p {
+    font-size: 18px; /* Define o tamanho da fonte como 18px */
+    text-align: center; /* Centraliza o texto do parágrafo */
+    max-width: 1400px; /* Define a largura máxima do parágrafo */
+    margin: 0 auto 40px; /* Define a margem superior e inferior, centralizando o parágrafo */
+    color: #fcfcfc; /* Define a cor do texto como um tom muito claro */
+    line-height: 1.6; /* Define a altura da linha para 1.6 vezes o tamanho da fonte */
+}
+
+/* Estilo para a foto */
+.foto {
+    text-align: center; /* Centraliza o conteúdo da imagem */
+    margin: 0 auto; /* Centraliza o elemento em relação a sau caixa */
+    max-width: 20%; /* Limita a largura da imagem a 20% da caixa */
+}
+
+/* Estilo para a imagem dentro da foto */
+.foto img {
+    max-width: 100%; /* A imagem ocupa no máximo 100% da largura da caixa */
+    height: auto; /* Mantém a proporção da altura da imagem */
+    display: block; /* Faz a imagem ser uma caixa (evita o comportamento inline) */
+    margin: 0 auto; /* Centraliza a imagem dentro da caixa */
+    border-radius: 8px; /* Aplica bordas arredondadas à imagem */
+}
+ 
+.segunda {
+    text-align: center;
+    margin-bottom: 20px; /* Adiciona 20px de espaço abaixo do título */
+    background-color: #fcfcfc;
+}
+.segunda h2 {
+    padding: 50px;
+    text-align: center; /*centraliza o conteudo da imagem */
+    font-size: 48px; /* Aumenta o tamanho da fonte */ 
+    color: #3c5b7bcc; /*cor da fonte*/
+     margin-bottom: 20px; /* Adiciona 20px de espaço abaixo do título */
+}
+.segunda p {
+    text-align: center; /*centraliza o conteudo da imagem */
+    font-size: 18px; /* Aumenta o tamanho da fonte */
+    color:#040404cc ; /*cor da fonte*/
+    line-height: 2.6; /* Define a altura da linha para 1.6 vezes o tamanho da fonte */
+}
+.foto2 {
+    text-align: center; /* Centraliza o conteúdo da imagem */
+    margin: 0 auto; /* Centraliza o elemento em relação a sau caixa */
+    max-width: 20%; /* Limita a largura da imagem a 20% da caixa */
+}
+.foto2 img {
+    max-width: 100%; /* A imagem ocupa no máximo 100% da largura da caixa */
+    height: auto; /* Mantém a proporção da altura da imagem */
+    display: block; /* Faz a imagem ser uma caixa (evita o comportamento inline) */
+    margin: 0 auto; /* Centraliza a imagem dentro da caixa */
+    border-radius: 8px; /* Aplica bordas arredondadas à imagem */
+}
+
+
+
+/* Estilo da seção */
+.terceira {
+    text-align: center;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 48px;
+}
+.foto3 h3 {
+    text-align: center;
+    color: #ffffff;
+}
+/* Estilo do container das imagens */
+.foto3 {
+    display: flex; /* Usando Flexbox para alinhar as imagens lado a lado */
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    gap: 10px; /* Espaçamento entre as imagens */
+    margin-top: 20px; /* Distância do título para as imagens */
+}
+
+/* Estilo para as imagens */
+.foto3 img {
+    width: 75%; /* As imagens ocuparão 45% da largura do contêiner */
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+    border-radius: 8px; /* Adiciona borda arredondada nas imagens */
+}
+
+.DIVISAO {
+    padding: 60px;
+}
+/* Rodapé */
+footer {
+    background-color: #333; /* Cor de fundo escura */
+    color: white; /* Cor do texto em branco */
+    padding: 10px; /* Espaçamento interno do footer */
+    text-align: center; /* Alinha o texto ao centro */
+    position: fixed; /* Faz o footer ficar fixo na parte inferior da tela */
+    bottom: 0; /* Coloca o footer na parte inferior */
+    left: 0; /* Alinha o footer à esquerda */
+    width: 100%; /* Define a largura do footer como 100% da tela */
+}
+
+/* Estilo para o título dentro do footer */
+footer h4 {
+    margin: 0; /* Remove a margem ao redor do título */
+    font-size: 14px; /* Define o tamanho da fonte do título como 14px */
+}
