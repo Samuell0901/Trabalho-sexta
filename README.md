@@ -64,4 +64,4 @@ Este projeto está sob a licença [MINHA](./LICENSE).
 
 ---
 
- Feito com  por Samuel Oliveira 
+ Feito por Samuel Oliveira 
