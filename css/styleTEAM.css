@@ -3,11 +3,13 @@ body {
     margin: 0;
     padding: 0;
     background-color: #3c5b7bcc;
-    color: #000000;
+    color: 
+#000000;
 }
 
 header {
-    background-color: #fcfcfc;
+    background-color: 
+#fcfcfc;
     padding: 10px;
 }
 
@@ -74,7 +76,8 @@ footer {
 }
 
 .tabela-horarios th {
-    background-color: #4f85c7;
+    background-color: 
+#4f85c7;
     color: white;
     padding: 15px;
     text-align: left;
@@ -83,10 +86,23 @@ footer {
 
 .tabela-horarios td {
     padding: 12px 15px;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid 
+#ffffff;
 }
 
 .destaque {
     font-weight: bold;
-    color: #4f85c7;
+    color: 
+#4f85c7;
+}
+
+.caixa {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.caixa.visible {
+    opacity: 1;
+    transform: translateY(0);
 }

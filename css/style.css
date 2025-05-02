@@ -168,3 +168,44 @@ footer {
     bottom: 0; /* Coloca o footer na parte inferior */
     width: 97.8%; /* Define a largura do footer como 100% da tela */
 }
+
+/* Estilos adicionais para suportar o JavaScript */
+
+/* Estilo para o botão de voltar ao topo */
+.back-to-top {
+    transition: background-color 0.3s, opacity 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #e05e00 !important;
+}
+
+/* Efeito de transição para links do menu */
+nav ul li a {
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3c5b7b;
+}
+
+/* Estilos para os botões com efeito hover */
+.principal a, .terceira a {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.principal a:hover, .terceira a:hover {
+    background-color: #e05e00;
+    transform: scale(1.05);
+}
+
+/* Animação para seções */
+.segunda, .terceira {
+    will-change: opacity, transform;
+}
+
+/* Animação para imagens */
+.imagens img {
+    will-change: opacity, transform;
+    transition-delay: calc(var(--img-index, 0) * 0.2s);
+}
